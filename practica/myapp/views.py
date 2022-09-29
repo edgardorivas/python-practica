@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def iniciando(request):
+    return HttpResponse("mi primer mensaje en django")
